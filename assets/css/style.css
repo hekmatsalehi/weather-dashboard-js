@@ -1,0 +1,25 @@
+* {
+  margin: 5px;
+}
+
+body {
+  background-color: rgb(228, 228, 251);
+}
+
+h1,
+h2 {
+  color: darkblue;
+}
+
+#searchBtn,
+#searchedCities button {
+  background-color: rgb(56, 56, 222);
+  color: white;
+
+  margin-top: 10px;
+}
+
+#fiveDaysResult p {
+  background-color: rgb(109, 109, 205);
+  color: white;
+}

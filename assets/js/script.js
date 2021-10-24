@@ -24,7 +24,7 @@ function getWeatherUpdate(cityName) {
   fiveDaysResultEl.innerHTML = "";
 
   var getLonLatURL =
-    "http://api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/geo/1.0/direct?q=" +
     cityName +
     ",US&limit=5&appid=" +
     ApiKey;

@@ -127,7 +127,6 @@ searchBtnEl.addEventListener("click", function (event) {
   event.preventDefault();
 
   var searchValue = inputCityEl.value.trim();
-
   if (!searchValue) {
     return;
   }
@@ -135,6 +134,7 @@ searchBtnEl.addEventListener("click", function (event) {
   cityBtns.push(searchValue);
   getWeatherUpdate(searchValue);
   generateBtns();
+  inputCityEl.value ='';
 });
 
 function intialLoad() {
@@ -146,7 +146,8 @@ function intialLoad() {
 }
 
 function generateBtns() {
-  for (var i = 0; i < cityBtns.length; i++) {
+  searchedCitiesEl.innerHTML = '';
+  for (var i = cityBtns.length -1; i >= 0; i--) {
     city = cityBtns[i];
     var newBtn = document.createElement("button");
 

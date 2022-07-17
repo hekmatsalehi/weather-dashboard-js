@@ -9,4 +9,4 @@ This application is designed to show the weather forecast of all the cities in t
 
 # Link
 
-[Link to the Deployed Application](https://hekmatsalehi.github.io/weather-dashboard/)
+[Link to the Deployed Application](https://hekmatsalehi.github.io/weather-dashboard-js/)
